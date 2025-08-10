@@ -77,4 +77,74 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-
+@media screen and (max-width: 576px) {
+    .h1 {
+        font-size: 3rem;
+        margin-bottom: 6rem;
+    }
+    .searchbar input[type="text"], 
+    .searchbar input[type="email"], 
+    .searchbar textarea {
+        width: 150%;
+        height: 40px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1px;
+    }
+    .searchbar .btn-primary {
+        width: 40%;
+        height: 50px;
+    }
+    .button-link {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin: 10px;
+    }
+    .button-link img {
+        padding: 20px 30px;
+        height: 20px;
+    }
+  
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .h1 {
+        font-size: 5rem;
+        margin-bottom: 6rem;
+    }
+    .searchbar input[type="text"], 
+    .searchbar input[type="email"], 
+    .searchbar textarea {
+      width: 200%;
+      height: 40px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .searchbar .btn-primary {
+        width: 70%;
+        height: 50px;
+    }
+    .button-link {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-evenly;
+        align-items: center;
+        justify-content: center;
+          }
+    .button-link img {
+        padding: 20px 30px;
+        height: 20px;
+    }
+    .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
