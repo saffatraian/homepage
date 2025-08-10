@@ -1,0 +1,80 @@
+/* font */
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* body */
+body {
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+/* text */
+.text-primary {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* h1 */
+.h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* button */
+.btn-primary {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 1);
+}
+
+/* searchbar */
+.searchbar .btn-primary {
+    width: 100px;
+    height: 50px;
+}
+.searchbar {
+    display: flex;
+    justify-content: center;   
+    align-items: center;  
+}
+.searchbar input[type="text"], 
+.searchbar input[type="email"], 
+.searchbar textarea {
+  width: 644px; 
+  height: 40px;
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+}
+
+/* anchors */
+.button-link {
+  display: flex;
+  margin: 10px 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-link img {
+  vertical-align: middle;
+  margin: 0px 10px;
+  padding: 30px 50px;
+  height: 24px;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+
